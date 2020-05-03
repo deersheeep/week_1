@@ -4,9 +4,9 @@ html,body {
 a {
     text-decoration: none;
 }
-.warp {    
-    margin: 0 auto;
-}
+/*.warp {margin: 0 auto;}
+* margin 0 auto 通常是與寫死寬度的一起共用 */
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -21,9 +21,8 @@ h1 {
 .photo {
     margin-bottom: 55px;
 }
-.photo img {
-    width: 324px;
-}
+/* .photo img { width: 324px;}*/
+
 /* profile + work */
 .profile,
 .work {
